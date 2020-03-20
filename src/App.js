@@ -12,7 +12,7 @@ class App extends Component {
         <div className="">
           Your Age : <span>{this.props.age}</span>
         </div>
-        <div>
+        <div className="btn-div">
           <button onClick={this.props.onAgeUp}>Age UP</button>
           <button onClick={this.props.onAgeDown}>Age Down</button>
         </div>
